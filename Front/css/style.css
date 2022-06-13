@@ -1,0 +1,101 @@
+.bg-image-vertical {
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
+
+@media (min-width: 1025px) {
+    .h-custom-2 {
+        height: 100%;
+    }
+}
+
+#restaurant-menu .section-title {
+	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+	background-size: cover;
+}
+#restaurant-menu .section-title h2 {
+	color: #fff;
+}
+#restaurant-menu img {
+	width: 300px;
+	box-shadow: 15px 0 #a7c44c;
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.section-title .overlay {
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.section-title p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.section-title hr {
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.section-title h1, i {
+    color: white;
+}
+
+
+hr{
+    height: 2px;
+    width: 70px;
+    text-align: center;
+    position: relative;
+    background: #8eb640;
+    margin: 0;
+    margin-bottom: 40px;
+    border: 0;
+}
+
+
+#restaurant-menu .menu-section hr {
+	margin: 0 auto;
+}
+#restaurant-menu .menu-section {
+	margin: 0 20px 80px;
+}
+#restaurant-menu .menu-section-title {
+	font-size: 26px;
+	display: block;
+	font-weight: 500;
+	color: #444;
+	margin: 20px 0;
+	text-align: center;
+}
+#restaurant-menu .menu-item {
+	margin: 35px 0;
+	font-size: 18px;
+}
+#restaurant-menu .menu-item-name {
+	font-weight: 600;
+	font-size: 17px;
+	color: #555;
+	border-bottom: 2px dotted rgb(213, 213, 213);
+}
+#restaurant-menu .menu-item-description {
+	font-style: italic;
+	font-size: 15px;
+}
+#restaurant-menu .menu-item-price {
+	float: right;
+	font-weight: 600;
+	color: #555;
+	margin-top: -26px;
+}
+
+.let{
+	color: white;
+	font-size: 30px;
+}
